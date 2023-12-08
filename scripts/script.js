@@ -26,7 +26,7 @@
             // javascript voor "lees meer button"
 
             var button = document.querySelector("button");
-            var element = document.querySelector("span");
+            var element = document.querySelector(".test-read-span");
 
             button.addEventListener("click", function() {
             element.classList.toggle("show");

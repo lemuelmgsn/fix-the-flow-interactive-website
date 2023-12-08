@@ -215,7 +215,7 @@ button:hover{
     background-color: var(--button-color-hover);
     color:var(--button-font-hover);
 }
-span{
+.test-read-span{
     display: none;
 }
 span.show{
