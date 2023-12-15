@@ -3,8 +3,8 @@
             let rangevalue = document.getElementById("myRange");
             let setvalue = document.getElementById("rangevalue");
             let imgchangevalue = document.getElementById("imgchange")
-                //setvalue.innerHTML = rangevalue.value;
-                //console.log(rangevalue.value)
+                setvalue.innerHTML = rangevalue.value;
+                console.log(rangevalue.value)
     
             //Now will use oninput event.
             rangevalue.oninput = function() {
@@ -21,12 +21,12 @@
                 } else if (getvalue >= 98 && getvalue <= 99) {
                     imgchangevalue.setAttribute("src", "assets/b-RAIN landing page v3 5 (Gemiddeld).png")
                 }
-            }
+            };
         
             // javascript voor "lees meer button"
 
-            var button = document.querySelector("button");
-            var element = document.querySelector(".test-read-span");
+            let button = document.querySelector("button");
+            let element = document.querySelector(".test-read-span");
 
             button.addEventListener("click", function() {
             element.classList.toggle("show");
