@@ -141,8 +141,32 @@ section{
 .over{
     height: 50vh;
 }
+/* welkom bij brain section */
+.welkom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "kopje-welkom none"
+    "p-div huisje";
+}
+.p-div{
+    grid-area: p-div;
+}
+.kopjes{
+    grid-area: kopje-welkom;
+}
+.huisje{
+    width: 40vw;
+    grid-area: huisje;
+    translate: 0 -6em;
+    /* box-shadow: 0 3px 8px rgb(0 0 0 / 0.2); */
+    border-radius: 20px;
+
+}
+/* wat is brain section */
 .wat-is-brain{
-    height: 89vh;
+    height: 97vh;
     translate: 0 -4em;
 }
 .wat-is-brain p{
@@ -154,9 +178,21 @@ section{
     translate: 4em -4em;
     border-radius: 20px;
 }
+/* waarom brain section */
 .waarom{
     height: 150vh;
+    color: var(--font-color);
+    font-family: var(--body-font);
+    font-size: 18px;
+    line-height: 1.4;
+    /* width: 30em; */
+    text-align: left;
 }
+.waarom-tekst{
+    width: 30em;
+    display: flex;
+}
+
 
 
 
