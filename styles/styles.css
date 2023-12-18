@@ -190,7 +190,7 @@ section{
 }
 .waarom-tekst{
     width: 30em;
-    display: flex;
+    display: inline-flex;
 }
 
 
