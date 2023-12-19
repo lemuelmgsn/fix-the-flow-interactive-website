@@ -34,21 +34,10 @@ html{
     margin: 0;
     padding: 0;
 }
-li{
-    list-style-type: none;
-}
-.contact-span{
-    color: var(--button-font);
-    background-color: var(--font-color-titles);
-    padding: .7em;
-    border-radius: 5px;
-}
-.contact-span:hover{
-    color: var(--button-font-3);
-    background-color: var(--font-color);
-}
-ul{
-    list-style-type: none;
+/* FOCUS voor alle interactieve elementen */
+.slider-range, .contact a, .over a, button, .topnav a:focus{
+    outline-color: red;
+    padding: .5em;
 }
 .topnav{
     font-weight: 400;
@@ -79,6 +68,23 @@ ul{
     color: var(--button-color);
     border-bottom: 3px #000000;
 }
+.topnav > ul{
+    display: flex;
+    list-style-type: none;
+}
+.topnav > li{
+    list-style-type: none;
+}
+.contact-span{
+    color: var(--button-font);
+    background-color: var(--font-color-titles);
+    padding: .7em;
+    border-radius: 5px;
+}
+.contact-span:hover{
+    color: var(--button-font-3);
+    background-color: var(--font-color);
+}
 .Logo{
     float: left;
     font-family: sans-serif;
@@ -88,6 +94,7 @@ ul{
     height: 60px;
     margin-left: 30px;
     margin-top: 10px;
+    margin-right: 600px;
 }
 .motto{
     width: 12em;
@@ -291,10 +298,8 @@ button{
     text-underline-offset: 6px;
     cursor: pointer;
     font-weight: 600;
-    
 }
 button:hover{
-    /* background-color: var(--button-color-hover); */
     color:var(--button-color-hover);
 }
 .test-read-span{
