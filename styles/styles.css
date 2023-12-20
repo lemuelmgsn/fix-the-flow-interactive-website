@@ -68,6 +68,11 @@ html{
     color: var(--button-color);
     border-bottom: 3px #000000;
 }
+.topnav a:active{
+    color: var(--button-color-3);
+    padding: 0;
+    padding-right: 25px;
+}
 .topnav > ul{
     display: flex;
     list-style-type: none;
